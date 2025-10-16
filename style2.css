@@ -1,0 +1,48 @@
+@keyframes redwalks {
+        100% {
+          transform: translate(100vw);
+        }
+      }
+      
+      p {
+        width: 20rem;
+        font-size: 22px;
+        border-style: solid;
+        z-index: 2;
+        background-color: white;
+        position: relative;
+        left: 55rem;
+        top: 5rem;
+        font-weight: bold;
+      }
+      
+      body {
+        background-image: url('https://static.vecteezy.com/system/resources/previews/021/182/343/non_2x/forest-nature-scene-for-cartoon-animation-vector.jpg');
+        
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        background-position: center;
+        background-size: cover;
+      }
+      
+      .house {
+        z-index: 4;
+        position: relative;
+        width: 30rem;
+        bottom: 1rem
+      }
+      
+      .red {
+        z-index: 3;
+        position: relative;
+        width: 10rem;
+        right: 15rem;
+        bottom: 1rem;
+        animation-name: redwalks;
+        animation-iteration-count: 1;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-delay: 3.5s;
+      }
